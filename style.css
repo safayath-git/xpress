@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+body {
+    background-image: url(then.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    height:100vh;
+}
+.container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.wel
+{
+    color:blue;
+    font-size: 60px;
+    margin-left: 350px;
+    padding-top: 100px;
+    animation:blinker 1.5s linear infinite;
+
+}
+ @keyframes blinker
+{
+    50%
+    {
+        opacity: 0;
+    }
+}
+.pls
+{
+    color:yellow;
+    margin-left:470px;
+}
+.tabs
+{
+    display: table-cell;
+    width: 30%;
+    background-color: rgba(149, 224, 11, 0.82);
+    padding: 10px;
+    float: left;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-bottom: 0px;
+    position: relative;
+    font-size: 20px;
+    color: #ffffff;
+}
+.tabs:hover{
+    cursor: pointer;
+}
+#scont {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(78, 11, 224, 0.82);
+    border: 2px solid #ffffff;
+}
+input{
+    display: block;
+    width: 250px;
+    margin: 10px 13px;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    outline: 2px solid #ffffff;
+}
+input[type="submit"]
+{
+    width: 273px;
+}
+.comm
+{
+position: absolute;
+visibility: hidden;
+}
+#login
+{
+    visibility: visible;
+    
+}
+h3{
+    color:white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left:20px
+}
+.fp
+{
+    color:white;
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
